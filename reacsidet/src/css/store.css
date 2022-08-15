@@ -1,0 +1,60 @@
+.gridror {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+.flexCol {
+}
+.openingstore {
+  height: 40vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../image/hjh.jpg");
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+}
+
+.min-h {
+  min-height: 100vh;
+}
+.centerit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bg-image {
+  height: 20vh;
+  width: 100%;
+  background-image: url("./../image/logo.png");
+  background-size: cover;
+  object-fit: cover;
+}
+
+.maxwidth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardd {
+  width: 100%;
+  height: 100%;
+}
+.flexcenter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkbaynow {
+  text-decoration: none;
+  color: blue;
+
+  cursor: pointer;
+}
+
+.boldhard {
+  font-weight: 600;
+}

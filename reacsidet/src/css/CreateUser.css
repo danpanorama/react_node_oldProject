@@ -1,0 +1,18 @@
+.formdiv {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.formCreateUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.backColor {
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
